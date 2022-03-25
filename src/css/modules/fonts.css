@@ -2,6 +2,6 @@
   font-weight: 400;
   font-family: Stolzl;
   src:
-    url("/src/assets/fonts/Stolzl.woff2") format("woff2"),
-    url("/src/assets/fonts/Stolzl.woff") format("woff");
+    url("../../assets/fonts/Stolzl.woff2") format("woff2"),
+    url("../../assets/fonts/Stolzl.woff") format("woff");
 }
