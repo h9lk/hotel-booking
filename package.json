@@ -1,0 +1,24 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h9lk/hotel-booking.git"
+  },
+  "author": "h9lk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h9lk/hotel-booking/issues"
+  },
+  "homepage": "https://github.com/h9lk/hotel-booking#readme",
+  "devDependencies": {
+    "stylelint": "^14.6.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}
