@@ -2,12 +2,14 @@
   min-height: 770px;
   background-image: url("../../assets/img/camp.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.page-header::after {
+.page-header::before {
   position: fixed;
   top: 0;
   left: 0;
+  display: block;
   width: 100%;
   min-height: 770px;
   background: linear-gradient(rgb(0 0 0 / 70%), transparent);
@@ -22,14 +24,45 @@
 
 .short-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.short-list-inner {
-  list-style-type: none;
 }
 
 .link {
   color: inherit;
   text-decoration: none;
+}
+
+.container,
+.promo {
+  position: relative;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 194px;
+}
+
+.promo-title {
+  min-width: 1115px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.promo-text {
+  padding-top: 30px;
+}
+
+.btn {
+  min-width: 320px;
+  min-height: 60px;
+  margin-top: 119px;
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: var(--bg-burning-orange);
+  border: none;
+  border-radius: 30px;
 }
