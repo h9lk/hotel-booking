@@ -1,9 +1,11 @@
 @import url("./modules/fonts.css");
 @import url("./modules/header.css");
+@import url("./modules/buttons.css");
 
 :root {
-  --bg-burning-orange: #fc6733;
-  --bg-san-marino: #4056a7;
+  --burning-orange: #fc6733;
+  --san-marino: #4056a7;
+  --light-coloured: #fff;
 }
 
 * {
@@ -13,6 +15,7 @@
 }
 
 body {
-  color: white;
+  color: var(--light-coloured);
+  font-size: 20px;
   font-family: Stolzl, sans-serif;
 }
