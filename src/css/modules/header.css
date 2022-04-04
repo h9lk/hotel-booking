@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.light {
+.color-light {
   color: var(--light-coloured);
 }
 
@@ -67,11 +67,11 @@
 }
 
 .promo-title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 60px;
   text-align: center;
 }
 
 .promo-text {
-  padding-bottom: 101px;
+  margin-bottom: 101px;
 }
