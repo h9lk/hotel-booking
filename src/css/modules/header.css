@@ -8,12 +8,12 @@
 }
 
 .page-header::before {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   display: block;
   width: 100%;
-  min-height: 770px;
+  height: 770px;
   background-image: linear-gradient(var(--dark-translucent), transparent);
   content: "";
 }
@@ -44,6 +44,14 @@
   position: relative;
 }
 
+.light {
+  color: var(--light-coloured);
+}
+
+.title {
+  font-weight: bold;
+}
+
 .promo {
   display: flex;
   flex-grow: 1;
@@ -66,8 +74,4 @@
 
 .promo-text {
   padding-bottom: 101px;
-}
-
-.title {
-  font-weight: 500;
 }

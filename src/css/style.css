@@ -1,11 +1,13 @@
 @import url("./modules/fonts.css");
 @import url("./modules/header.css");
+@import url("./modules/benefits.css");
 @import url("./modules/buttons.css");
 
 :root {
   --burning-orange: #fc6733;
   --san-marino: #4056a7;
   --light-coloured: #fff;
+  --dark-coloured: #000;
   --dark-translucent: rgb(0 0 0 / 70%);
 }
 
@@ -16,7 +18,6 @@
 }
 
 body {
-  color: var(--light-coloured);
   font-size: 20px;
   font-family: Stolzl, system-ui, sans-serif;
 }
