@@ -1,4 +1,6 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
   min-height: 770px;
   background-image: url("../../assets/img/camp.png");
   background-repeat: no-repeat;
@@ -12,14 +14,12 @@
   display: block;
   width: 100%;
   min-height: 770px;
-  background-image: linear-gradient(rgb(0 0 0 / 70%), transparent);
+  background-image: linear-gradient(var(--dark-translucent), transparent);
   content: "";
 }
 
 .container {
-  padding-top: 30px;
-  padding-right: 120px;
-  padding-left: 120px;
+  padding: 30px 120px;
 }
 
 .short-list {
@@ -35,27 +35,34 @@
   text-decoration: none;
 }
 
-.container,
+.sharp-img {
+  margin-right: 8px;
+}
+
+.page-nav,
 .promo {
   position: relative;
 }
 
 .promo {
   display: flex;
-  flex-direction: column;
+  flex-grow: 1;
   align-items: center;
-  padding-top: 194px;
-}
-
-.title {
-  font-weight: 500;
-  text-align: center;
+  justify-content: center;
 }
 
 .promo-title {
   font-size: 60px;
+  text-align: center;
 }
 
-.promo-text {
-  padding-top: 30px;
+.promo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 500;
 }
