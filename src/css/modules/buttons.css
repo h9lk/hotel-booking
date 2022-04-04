@@ -1,0 +1,14 @@
+.btn {
+  color: var(--light-coloured);
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.promo-btn {
+  min-width: 320px;
+  min-height: 60px;
+  background-color: var(--burning-orange);
+  border-radius: 30px;
+}

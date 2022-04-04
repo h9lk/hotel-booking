@@ -1,9 +1,14 @@
 @import url("./modules/fonts.css");
 @import url("./modules/header.css");
+@import url("./modules/benefits.css");
+@import url("./modules/buttons.css");
 
 :root {
-  --bg-burning-orange: #fc6733;
-  --bg-san-marino: #4056a7;
+  --burning-orange: #fc6733;
+  --san-marino: #4056a7;
+  --light-coloured: #fff;
+  --dark-coloured: #000;
+  --dark-translucent: rgb(0 0 0 / 70%);
 }
 
 * {
@@ -13,6 +18,6 @@
 }
 
 body {
-  color: white;
-  font-family: Stolzl, sans-serif;
+  font-size: 20px;
+  font-family: Stolzl, system-ui, sans-serif;
 }
