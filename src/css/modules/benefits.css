@@ -1,5 +1,6 @@
 .container {
-  padding: 120px;
+  margin-right: 120px;
+  margin-left: 120px;
 }
 
 .benefits {
@@ -7,13 +8,20 @@
 }
 
 .benefits-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-areas:
+    "title ."
+    "img list"
+    ". link";
 }
 
 .benefits-title {
+  grid-area: title;
   font-size: 42px;
+}
+
+.image-container {
+  grid-area: img;
 }
 
 .special {
@@ -21,8 +29,8 @@
 }
 
 .benefits-list {
+  grid-area: list;
   margin-top: 18px;
-  margin-left: 90px;
 }
 
 .benefits-inner {
@@ -53,5 +61,6 @@
 }
 
 .benefits-link {
+  grid-area: link;
   color: var(--burning-orange);
 }
