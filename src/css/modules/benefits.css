@@ -1,28 +1,18 @@
+.container {
+  padding: 120px;
+}
+
 .benefits {
   min-height: 807px;
-  padding-top: 120px;
 }
 
 .benefits-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 82px;
-}
-
-.benefits-container::after {
-  position: absolute;
-  top: 1110px;
-  left: 368px;
-  display: block;
-  width: 156px;
-  height: 278px;
-  background-image: url("../../assets/img/IphoneX.png");
-  content: "";
 }
 
 .benefits-title {
-  margin-left: 120px;
   font-size: 42px;
 }
 
@@ -31,12 +21,12 @@
 }
 
 .benefits-list {
-  padding-top: 18px;
-  padding-left: 90px;
+  margin-top: 18px;
+  margin-left: 90px;
 }
 
 .benefits-inner {
-  padding-bottom: 19px;
+  margin-bottom: 19px;
 }
 
 .benefits-inner,
@@ -45,7 +35,7 @@
 }
 
 .benefits-inner:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .benefits-inner::before {
