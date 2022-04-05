@@ -4,24 +4,22 @@
 }
 
 .benefits {
-  min-height: 807px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-container {
-  display: grid;
-  grid-template-areas:
-    "title ."
-    "img list"
-    ". link";
+  /**
+   * TODO: Убрать в класс .container
+   */
+  max-width: 1096px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .benefits-title {
-  grid-area: title;
   font-size: 42px;
-}
-
-.image-container {
-  grid-area: img;
+  margin-bottom: 82px;
 }
 
 .special {
@@ -29,8 +27,7 @@
 }
 
 .benefits-list {
-  grid-area: list;
-  margin-top: 18px;
+  margin-bottom: 140px;
 }
 
 .benefits-inner {
@@ -61,6 +58,20 @@
 }
 
 .benefits-link {
-  grid-area: link;
   color: var(--burning-orange);
+}
+
+.benefits-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  position: relative;
+}
+
+.benefits-iphone {
+  position: absolute;
+  top: 135px;
+  right: 0;
 }
