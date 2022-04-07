@@ -1,0 +1,28 @@
+.btn {
+  color: var(--light-coloured);
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.promo-btn {
+  padding: 18px 30px;
+  background-color: var(--burning-orange);
+  border-radius: 30px;
+}
+
+.video-circle-btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.video-circle-btn::after {
+  display: block;
+  height: 70px;
+  background-image: url("../../assets/img/play.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}

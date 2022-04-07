@@ -1,0 +1,16 @@
+.video {
+  padding-bottom: 120px;
+}
+
+.video-title {
+  padding-bottom: 65px;
+}
+
+.video-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 616px;
+  background-color: var(--silver-gray);
+  border-radius: 20px;
+}

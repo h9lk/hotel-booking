@@ -1,0 +1,19 @@
+:root {
+  --burning-orange: #fc6733;
+  --san-marino: #4056a7;
+  --light-coloured: #fff;
+  --silver-gray: #c4c4c4;
+  --dark-coloured: #000;
+  --dark-translucent: rgb(0 0 0 / 70%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: Stolzl, system-ui, sans-serif;
+}
