@@ -1,0 +1,41 @@
+.examples {
+  padding-bottom: 120px;
+}
+
+.exaples-title {
+  margin-bottom: 65px;
+}
+
+.examples-list {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 340px);
+  justify-content: center;
+  text-align: center;
+}
+
+.examples-inner {
+  list-style-type: none;
+}
+
+.examples-inner::before {
+  display: block;
+  width: 340px;
+  height: 300px;
+  padding-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.example-1::before {
+  background-image: url("../../assets/img/house.png");
+}
+
+.example-2::before {
+  background-image: url("../../assets/img/basin.png");
+}
+
+.example-3::before {
+  background-image: url("../../assets/img/tent.png");
+}

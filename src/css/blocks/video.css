@@ -3,7 +3,7 @@
 }
 
 .video-title {
-  padding-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .video-player {
@@ -13,4 +13,13 @@
   height: 616px;
   background-color: var(--silver-gray);
   border-radius: 20px;
+}
+
+.video-btn::after {
+  display: block;
+  height: 70px;
+  background-image: url("../../assets/img/play.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
 }
