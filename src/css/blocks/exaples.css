@@ -39,3 +39,8 @@
 .example-3::before {
   background-image: url("../../assets/img/tent.png");
 }
+
+.example-text {
+  padding-right: 58px;
+  padding-left: 58px;
+}
