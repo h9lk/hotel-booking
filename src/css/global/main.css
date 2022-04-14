@@ -7,7 +7,9 @@
   --dark-translucent: rgb(0 0 0 / 70%);
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;

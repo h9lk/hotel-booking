@@ -1,9 +1,20 @@
 .btn {
-  color: var(--light-coloured);
   font-size: inherit;
   font-family: inherit;
   border: none;
   cursor: pointer;
+}
+
+.btn-text-light {
+  color: var(--light-coloured);
+}
+
+.btn-text-marino {
+  color: var(--san-marino);
+}
+
+.btn-background-orange {
+  background-color: var(--burning-orange);
 }
 
 .btn-lg {
@@ -11,12 +22,15 @@
   height: 150px;
 }
 
-.promo-btn {
+.btn-oval {
   padding: 18px 30px;
-  background-color: var(--burning-orange);
   border-radius: 30px;
 }
 
-.circle-btn {
+.btn-form {
+  padding: 18px 120px;
+}
+
+.btn-circle {
   border-radius: 50%;
 }

@@ -1,0 +1,31 @@
+.tutorial {
+  padding-bottom: 120px;
+}
+
+.tutorial-title {
+  margin-bottom: 80px;
+}
+
+.tutorial-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tutorial-list {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.tutorial-inner {
+  display: flex;
+  margin-right: 65px;
+}
+
+.tutorial-inner:last-child {
+  margin-right: 0;
+}
+
+.tutorial-img {
+  margin-right: 30px;
+}

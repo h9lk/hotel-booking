@@ -30,7 +30,7 @@
   display: inline-block;
   width: 18px;
   height: 16px;
-  padding-right: 10px;
+  margin-right: 10px;
   background-image: url("../../assets/img/check.svg");
   background-repeat: no-repeat;
   content: "";
