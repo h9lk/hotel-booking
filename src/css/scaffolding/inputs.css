@@ -1,0 +1,17 @@
+.consultation-input {
+  padding: 20px 25px;
+  color: var(--light-coloured);
+  font-size: inherit;
+  font-family: inherit;
+  background-color: var(--san-marino);
+  border: 2px solid var(--light-coloured);
+  border-radius: 30px;
+}
+
+.consultation-input:last-child {
+  margin-right: 0;
+}
+
+.consultation-input::placeholder {
+  color: var(--light-coloured);
+}

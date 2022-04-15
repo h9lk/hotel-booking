@@ -1,13 +1,15 @@
 @import url("./global/main.css");
 @import url("./scaffolding/fonts.css");
-@import url("./scaffolding/container.css");
+@import url("./scaffolding/titles.css");
+@import url("./scaffolding/inputs.css");
 @import url("./scaffolding/buttons.css");
+@import url("./scaffolding/container.css");
 @import url("./blocks/header.css");
 @import url("./blocks/nav.css");
 @import url("./blocks/promo.css");
 @import url("./blocks/benefits.css");
 @import url("./blocks/video.css");
-@import url("./blocks/exaples.css");
+@import url("./blocks/examples.css");
 @import url("./blocks/tutorial.css");
 @import url("./blocks/consultation.css");
 @import url("./blocks/description.css");
