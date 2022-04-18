@@ -39,3 +39,7 @@
 .btn-circle {
   border-radius: 50%;
 }
+
+.btn-text-bold {
+  font-weight: bold;
+}
