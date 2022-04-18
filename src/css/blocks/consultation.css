@@ -10,8 +10,51 @@
 }
 
 .consultation-form {
-  display: grid;
-  grid-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 60px;
+}
+
+.consultation-form-box {
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-areas:
+    "input-name"
+    "input-tel"
+    "input-site"
+    "submit";
+}
+
+@media (min-width: 768px) {
+  .consultation-form-box {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "input-name input-tel"
+    "input-site submit";
+  }
+}
+
+@media (min-width: 1280px) {
+  .consultation-form-box {
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "input-name input-tel input-site"
+    ". submit .";
+  }
+}
+
+.consultation-input:first-child {
+  grid-area: input-name;
+}
+
+.consultation-input:nth-child(2) {
+  grid-area: input-tel;
+}
+
+.consultation-input:nth-child(3) {
+  grid-area: input-site;
+}
+
+.consultation-submit {
+  grid-area: submit;
 }
