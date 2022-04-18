@@ -1,5 +1,4 @@
-.consultation-input {
-  padding: 20px 25px;
+.input {
   color: var(--light-coloured);
   font-size: inherit;
   font-family: inherit;
@@ -8,10 +7,14 @@
   border-radius: 30px;
 }
 
-.consultation-input:last-child {
+.input-nm {
+  padding: 20px 25px;
+}
+
+.input:last-child {
   margin-right: 0;
 }
 
-.consultation-input::placeholder {
+.input::placeholder {
   color: var(--light-coloured);
 }

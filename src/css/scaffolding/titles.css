@@ -1,9 +1,16 @@
-.title-text {
-  font-weight: bold;
+.title-md {
   font-size: 42px;
 }
 
-.title-special {
+.title-lg {
+  font-size: 70px;
+}
+
+.title-text-bold {
+  font-weight: bold;
+}
+
+.title-color-special {
   color: var(--burning-orange);
 }
 

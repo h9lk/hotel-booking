@@ -1,6 +1,7 @@
 .btn {
   font-size: inherit;
   font-family: inherit;
+  background-color: var(--light-coloured);
   border: none;
   cursor: pointer;
 }
@@ -11,6 +12,10 @@
 
 .btn-text-marino {
   color: var(--san-marino);
+}
+
+.btn-text-special {
+  color: var(--burning-orange);
 }
 
 .btn-background-orange {
