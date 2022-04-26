@@ -1,0 +1,7 @@
+.text-color-special {
+  color: var(--burning-orange);
+}
+
+.text-color-light {
+  color: var(--light-coloured);
+}

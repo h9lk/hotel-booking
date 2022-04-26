@@ -1,20 +1,25 @@
 .input {
-  color: var(--light-coloured);
   font-size: inherit;
   font-family: inherit;
+}
+
+.input-text-color-light {
+  color: var(--light-coloured);
+}
+
+.input-bg-color-marino {
   background-color: var(--san-marino);
+}
+
+.input-border-light {
   border: 2px solid var(--light-coloured);
+}
+
+.input-lg-size {
+  padding: 20px 25px;
   border-radius: 30px;
 }
 
-.input-nm {
-  padding: 20px 25px;
-}
-
-.input:last-child {
-  margin-right: 0;
-}
-
-.input::placeholder {
+.input-placeholder-light::placeholder {
   color: var(--light-coloured);
 }

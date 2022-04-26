@@ -6,19 +6,19 @@
   cursor: pointer;
 }
 
-.btn-text-light {
+.btn-text-color-light {
   color: var(--light-coloured);
 }
 
-.btn-text-marino {
+.btn-text-color-marino {
   color: var(--san-marino);
 }
 
-.btn-text-special {
+.btn-text-color-special {
   color: var(--burning-orange);
 }
 
-.btn-background-orange {
+.btn-bg-orange {
   background-color: var(--burning-orange);
 }
 
@@ -27,7 +27,7 @@
   height: 150px;
 }
 
-.btn-oval {
+.btn-pill {
   padding: 18px 30px;
   border-radius: 30px;
 }
