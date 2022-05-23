@@ -1,0 +1,45 @@
+.btn {
+  font-size: inherit;
+  font-family: inherit;
+  background-color: var(--light-coloured);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-text-color-light {
+  color: var(--light-coloured);
+}
+
+.btn-text-color-marino {
+  color: var(--san-marino);
+}
+
+.btn-text-color-special {
+  color: var(--burning-orange);
+}
+
+.btn-bg-orange {
+  background-color: var(--burning-orange);
+}
+
+.btn-lg {
+  width: 150px;
+  height: 150px;
+}
+
+.btn-pill {
+  padding: 18px 30px;
+  border-radius: 30px;
+}
+
+.btn-form {
+  padding: 18px 120px;
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
+
+.btn-text-bold {
+  font-weight: bold;
+}

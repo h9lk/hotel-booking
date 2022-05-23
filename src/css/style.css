@@ -1,23 +1,18 @@
-@import url("./modules/fonts.css");
-@import url("./modules/header.css");
-@import url("./modules/benefits.css");
-@import url("./modules/buttons.css");
-
-:root {
-  --burning-orange: #fc6733;
-  --san-marino: #4056a7;
-  --light-coloured: #fff;
-  --dark-coloured: #000;
-  --dark-translucent: rgb(0 0 0 / 70%);
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-size: 20px;
-  font-family: Stolzl, system-ui, sans-serif;
-}
+@import url("./global/main.css");
+@import url("./scaffolding/fonts.css");
+@import url("./scaffolding/titles.css");
+@import url("./scaffolding/text.css");
+@import url("./scaffolding/inputs.css");
+@import url("./scaffolding/buttons.css");
+@import url("./scaffolding/links.css");
+@import url("./scaffolding/container.css");
+@import url("./blocks/header.css");
+@import url("./blocks/nav.css");
+@import url("./blocks/promo.css");
+@import url("./blocks/benefits.css");
+@import url("./blocks/video.css");
+@import url("./blocks/examples.css");
+@import url("./blocks/tutorial.css");
+@import url("./blocks/consultation.css");
+@import url("./blocks/description.css");
+@import url("./blocks/contacts.css");

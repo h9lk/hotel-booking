@@ -4,43 +4,143 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title class="light">Бронируй.онлайн</title>
+  <title>Знай Места</title>
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header class="page-header">
-      <div class="nav-container container">
-        <nav class="page-nav">
-          <p class="short-list">
-            <a href="/" class="main-link link light">
-              <img src="./src/assets/img/sharp.svg" alt="" width="23" height="23" class="sharp-img">Бронируй.онлайн
+      <div class="nav-container">
+        <nav class="nav">
+          <p class="nav-short-list">
+            <a href="/" class="nav-inner-link title-color-light title-text-bold">
+              <img src="./src/assets/img/sharp.svg" alt="" width="23" height="23" class="nav-inner-img">Бронируй.онлайн
             </a>
-            <a href="tel:88009999999" class="link light">8 800 999 99 99</a>
+            <a href="tel:88009999999" class="nav-inner-link title-color-light">8 800 999 99 99</a>
           </p>
         </nav>
       </div>
       <div class="promo">
         <div class="promo-container">
-          <h1 class="promo-title title light">Онлайн бронирование для отелей</h1>
-          <p class="promo-text light">Подключите онлайн-модуль и автоматизируйте процесс бронирования</p>
-          <button type="button" class="promo-btn btn">Попробовать бесплатно</button>
+          <h1 class="promo-title title-text-bold title-lg title-color-light">Онлайн бронирование для отелей</h1>
+          <p class="promo-text title-color-light">Подключите онлайн-модуль и автоматизируйте процесс бронирования</p>
+          <button type="button" class="btn btn-pill btn-bg-orange btn-text-color-light">Попробовать бесплатно</button>
         </div>
       </div>
     </header>
     <section class="benefits">
-        <h2 class="benefits-title title">Преимущества <span class="special">онлайн-модуля</span></h2>
-        <div class="benefits-container">
-          <img src="./src/assets/img/iPad.png" alt="" width="452" height="325" class="benefits-ipad">
-          <ul class="benefits-list">
-            <li class="benefits-inner">Бронирование на вашем сайте или в Instagram</li>
-            <li class="benefits-inner">Безопасная онлайн-оплата</li>
-            <li class="benefits-inner">Повышение лояльности потенциальных гостей</li>
-            <li class="benefits-inner">Увеличение числа прямых продаж</li>
-            <li class="benefits-inner">Бронирование 24/7</li>
-            <li class="benefits-inner">Продажа дополнительных услуг</li>
-            <li class="benefits-inner">Контроль бронирований в едином личном кабинете</li>
-            <li class="benefits-last"><a href="/" class="benefits-link">Протестируйте сами</a></li>
+      <div class="benefits-container container">
+        <h2 class="benefits-title title-text-bold title-md">Преимущества <span class="title-color-special">онлайн-модуля</span></h2>
+        <div class="benefits-wrapper">
+          <div class="benefits-col">
+            <div class="benefits-img-container">
+              <img src="./src/assets/img/iPad.png" alt="" width="475" height="372" class="benefits-ipad">
+              <img src="./src/assets/img/IphoneX.png" alt="" width="181" height="313" class="benefits-iphone">
+            </div>
+          </div>
+          <div class="benefits-col">
+            <ul class="benefits-list">
+              <li class="benefits-inner">Бронирование на вашем сайте или в Instagram</li>
+              <li class="benefits-inner">Безопасная онлайн-оплата</li>
+              <li class="benefits-inner">Повышение лояльности потенциальных гостей</li>
+              <li class="benefits-inner">Увеличение числа прямых продаж</li>
+              <li class="benefits-inner">Бронирование 24/7</li>
+              <li class="benefits-inner">Продажа дополнительных услуг</li>
+              <li class="benefits-inner">Контроль бронирований в едином личном кабинете</li>
+            </ul>
+
+            <a href="/" class="benefits-link">Протестируйте сами</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="video-container container">
+        <h2 class="video-title title-text-bold title-md">Видео-тур</h2>
+        <div class="video-player">
+          <button type="button" class="video-btn btn btn-circle btn-lg"></button>
+        </div>
+      </div>
+    </section>
+    <section class="examples">
+      <div class="examples-container container">
+        <h2 class="examples-title title-text-bold title-md"><span class="title-color-special">Онлайн-модулем</span> уже пользуются</h2>
+        <div class="examples-cards">
+          <ul class="examples-list">
+            <li class="examples-inner">
+              <img src="./src/assets/img/house.png" alt="" width="340" height="300">
+              <p class="example-text">Загородные клубы и дома для отдыха</p>
+            </li>
+            <li class="examples-inner">
+              <img src="./src/assets/img/basin.png" alt="" width="340" height="300">
+              <p class="example-text">Спа-отели и другие крупные объекты размещения</p>
+            </li>
+            <li class="examples-inner">
+              <img src="./src/assets/img/tent.png" alt="" width="340" height="300">
+              <p class="example-text">Глэмпинги, кемпинги, типи и тент-хаусы</p>
+            </li>
           </ul>
+        </div>
+      </div>
+    </section>
+    <section class="tutorial">
+      <div class="tutorial-container container">
+        <h2 class="tutorial-title title-text-bold title-md">Как подключить <span class="title-color-special">онлайн-модуль</span>?</h2>
+        <div class="tutorial-steps">
+          <ul class="tutorial-list">
+              <li class="tutorial-inner">
+                <img src="./src/assets/img/number-1.png" alt="" width="30" height="70" class="tutorial-img">
+                <p class="tutorial-text">Оставьте заявку онлайн или свяжитесь с нами по телефону.</p>
+              </li>
+              <li class="tutorial-inner">
+                <img src="./src/assets/img/number-2.png" alt="" width="48" height="70" class="tutorial-img">
+                <p class="tutorial-text">Заполните личный кабинет, пользуясь рекомендациями.</p>
+              </li>
+              <li class="tutorial-inner">
+                <img src="./src/assets/img/number-3.png" alt="" width="48" height="70" class="tutorial-img">
+                <p class="tutorial-text">Настройте модуль бронирования и систему уведомлений.</p>
+              </li>
+          </ul>
+          <button type="button" class="btn btn-pill btn-text-color-light btn-bg-orange">Оставить заявку</button>
+        </div>
+      </div>
+    </section>
+    <section class="consultation">
+      <div class="consultation-container container">
+        <h2 class="consultation-title title-text-bold-bold title-color-light title-md">Бесплатная консультация <br> по увеличению продаж</h2>
+        <div class="consultation-form-container">
+          <form class="consultation-form">
+            <div class="consultation-form-box">
+              <input type="text" placeholder="Ваше имя" class="input input-lg-size input-border-light input-bg-color-marino input-placeholder-light">
+              <input type="tel" placeholder="Телефон для связи" class="input input-lg-size input-border-light input-bg-color-marino input-placeholder-light">
+              <input type="url" placeholder="Сайт отеля" class="input input-lg-size input-border-light input-bg-color-marino input-placeholder-light">
+              <button type="submit" class="btn btn-pill btn-form btn-text-color-marino consultation-submit">Заказать</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="description">
+      <div class="description-container container">
+        <h2 class="description-title title-text-bold title-md">Бронируй загородный отдых на Знай Места</h2>
+        <div class="description-block">
+          <p class="description-goal text-color-shaft">
+            Открывайте для себя интересные места, бронируйте комплексы для отдыха и туры выходного дня, узнавайте, куда поехать с детьми и где активно отдохнуть.
+            Наша миссия – показать доступный и интересный отдых рядом с Вами. <br> <br>
+            Те, кто не сидит дома, кто постоянно в поиске новых интересных мест и идей для комфортного отдыха</p>
+          <button type="button" class="description-btn btn btn-text-color-special btn-text-bold">Читать дальше</button>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts-container container">
+        <h2 class="contacts-title title-text-bold title-md title-color-special">Контакты</h2>
+        <div class="contacts-block text-regular-bold">
+          <p class="contacts-methods-title">Остались вопросы? Свяжитесь с нами
+            <span class="test">любым удобным для вас способом.</span></p>
+          <p class="contacts-methods-list">
+            <span class="contacts-tel">Телефон:<a href="tel:88009999999" class="link link-small-indent link-color-orange ">+7 (999) 999-99-99</a></span>
+            <span class="contacts-mail">E-mail:<a href="mailto:mail@mail.ru" class="link link-small-indent link-color-orange">mail@mail.ru</a></span>
+          </p>
         </div>
       </div>
     </section>

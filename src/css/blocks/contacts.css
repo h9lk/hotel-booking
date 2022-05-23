@@ -1,0 +1,21 @@
+.contacts {
+  padding-bottom: 140px;
+}
+
+.contacts-title {
+  margin-bottom: 35px;
+}
+
+.contacts-methods-title {
+  padding-bottom: 50px;
+  white-space: pre-line;
+}
+
+.contacts-methods-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-tel {
+  padding-bottom: 30px;
+}

@@ -1,0 +1,25 @@
+.video {
+  padding-bottom: 120px;
+}
+
+.video-title {
+  margin-bottom: 65px;
+}
+
+.video-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 616px;
+  background-color: var(--silver-gray);
+  border-radius: 20px;
+}
+
+.video-btn::after {
+  display: block;
+  height: 70px;
+  background-image: url("../../assets/img/play.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}

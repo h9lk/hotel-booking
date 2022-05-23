@@ -1,0 +1,29 @@
+.nav {
+  position: relative;
+}
+
+.nav-container {
+  padding: 30px 120px;
+}
+
+.nav-short-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-inner-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-inner-img {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 30px;
+  }
+}

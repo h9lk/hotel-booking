@@ -1,0 +1,24 @@
+.examples {
+  padding-bottom: 120px;
+}
+
+.examples-title {
+  margin-bottom: 65px;
+}
+
+.examples-list {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  justify-content: center;
+  text-align: center;
+}
+
+.examples-inner {
+  list-style-type: none;
+}
+
+.example-text {
+  padding-right: 58px;
+  padding-left: 58px;
+}
