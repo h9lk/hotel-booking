@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+}
+
+.link-color-orange {
+  color: var(--burning-orange);
+}
+
+.link-small-indent {
+  padding-left: 5px;
+}

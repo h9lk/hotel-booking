@@ -1,10 +1,11 @@
 :root {
-  --burning-orange: #fc6733;
-  --san-marino: #4056a7;
   --light-coloured: #fff;
-  --silver-gray: #c4c4c4;
   --dark-coloured: #000;
   --dark-translucent: rgb(0 0 0 / 70%);
+  --burning-orange: #fc6733;
+  --san-marino: #4056a7;
+  --silver-gray: #c4c4c4;
+  --mine-shaft: rgb(34 34 34/ 70%);
 }
 
 *,
@@ -18,4 +19,10 @@
 body {
   font-size: 20px;
   font-family: Stolzl, system-ui, sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }

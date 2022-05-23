@@ -5,3 +5,11 @@
 .text-color-light {
   color: var(--light-coloured);
 }
+
+.text-color-shaft {
+  color: var(--mine-shaft);
+}
+
+.text-regular-bold {
+  font-weight: bold;
+}

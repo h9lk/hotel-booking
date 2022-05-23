@@ -17,3 +17,13 @@
 .title-color-light {
   color: var(--light-coloured);
 }
+
+@media (max-width: 768px) {
+  .title-md {
+    font-size: 30px;
+  }
+
+  .title-lg {
+    font-size: 36px;
+  }
+}

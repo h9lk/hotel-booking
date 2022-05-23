@@ -21,3 +21,9 @@
 .nav-inner-img {
   margin-right: 8px;
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 30px;
+  }
+}
